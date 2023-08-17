@@ -1,0 +1,12 @@
+n=int(input())
+if(n<=10000):
+    da=n*0.8
+    hra=n*0.2
+elif(n<=20000):
+    da=n*0.9
+    hra=n*0.25
+else:
+    da=n*0.95
+    hra=n*0.3
+g=n+da+hra
+print(f"{g:.2f}")
