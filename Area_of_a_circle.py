@@ -1,3 +1,3 @@
-a=int(input())
-b=(3.14*a*a)
-print(f"{b:.2f}")
+n=int(input())
+a=3.14*n*n
+print(f"{a:.2f}")
