@@ -1,8 +1,8 @@
 n=int(input())
-s=n*n
 f=0
+s=n*n
 while(n>0):
-    if(n%10!=s%10):
+    if(s%10!=n%10):
         print("Not an Automorphic Number")
         f=1
         break
