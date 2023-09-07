@@ -1,10 +1,8 @@
-a=int(input())
-k=0
-while(a):
-    d=a%10
-    if(k<d):
-        k=d
-    a=a//10
-print(k)
-        
-    
+n=int(input())
+s=0
+while(n):
+    r=n%10
+    if(s<r):
+        s=r
+    n=n//10
+print(s)
