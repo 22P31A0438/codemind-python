@@ -11,10 +11,8 @@ while(s):
     t=s%10
     s=s//10
     p=p+(t**i)
-    i+=1
+    i=i+1
 if(p==n):
     print("True")
 else:
     print("False")
-    
-        
