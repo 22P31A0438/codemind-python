@@ -1,21 +1,23 @@
 n=int(input())
 if(n<199):
-    s=1.20
+    c=1.20
 elif(n>=200 and n<400):
-    s=1.40
+    c=1.40
 elif(n>=400 and n<600):
-    s=1.60 
+    c=1.60
 elif(n>=600 and n<800):
-    s=1.80
+    c=1.80
 else:
-    s=2.00
-b=n*s
-c=0
+    c=2.00
+b=c*n
 if(b>400):
-    c=b*0.15
-t=b+c
+    s=b*0.15
+else:
+    s=0
+t=b+s
 print(f"Units Consumed: {n}
-Cost per Unit: {s:.2f}
+Cost per Unit: {c:.2f}
 Bill: {b:.2f}
-Surcharge: {c:.2f}
+Surcharge: {s:.2f}
 Total Amount: {t:.2f}")
+
