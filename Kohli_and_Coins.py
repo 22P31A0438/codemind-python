@@ -1,8 +1,9 @@
-x=int(input())
-if(x%5==0):
-    if(x%10==0):
-        print(x//10)
+n=int(input())
+if(n%5==0):
+    if n%10==0:
+        print(n//10)
     else:
-        print(x//10+1)
+        print(n//10+1)
 else:
     print("-1")
+        
